@@ -1,0 +1,42 @@
+Proyekt strukturu
+ Pages
+ Components (Header, Footer, UserCard və sairə)
+ Layout
+ Routes
+ Assets
+ Services
+
+Sayt üç səhifədən və Admin Paneldən ibarət olacaq
+ Ana səhifə
+ İstifadəçilər
+ Bəyəndiklərim
+ Admin Panel (istədiyiniz dizaynda hazırlaya bilərsiniz)
+
+1. Ana səhifə (https://startbootstrap.com/previews/sb-ui-kit-pro-angular) göndərilən linkdəki kimi
+olacaq tam olaraq yığılmasa da olar və navbar hissədə səhifələr keçid olmalıdır
+2. İstifadəçilər səhifəsində bütün istifadəçilər görünməlidir, load more və filter(A-Z, Z-A) məntiqi
+olmalıdır
+3. Bəyəndiklərim səhifəsində like olunan userlər görünməlidir (burada da delete əməliyatı olacaq)
+4. Admin panel aşağıdakı kimi olacaq
+ Ana səhifə (Burada statistika, misal üçün ümumi istifadəçilərin sayı, like olan
+istifadəçilərin sayı və s. Ola bilər)
+ İstifadəçilər səhifəsi (Burada Table ilə bütün istifadəçilər görünəcək həmçinin userlərin
+Delete-Update əməliyatları olacaq). Əlavə olaraq bu səhifədən Create səhifəsinə keçid
+edib yeni user yaratmaq mümkün olmalıdır
+
+API
+For users: https://reqres.in/
+
+ƏLAVƏ QEYD
+Login-register prosesi olmalıdır bunun üçün yuxarıda qeyd olunan apidən istifadə edə bilərsiniz.JWT
+istifadə olunacaq və admin panelə ancaq login olan istifadəçilər daxil ola bilməlidir.Yəni headerdə navbar
+hissədə login hissəsi olacaq və əgər bir user girib uğurlu şəkildə login olarsa avtomatik userin adı yazsın
+orada və dropdown kimi userin adına click edəndə Admin panelə keçid linki olsun ona da click olanda
+yönləndirsin admin panelə
+İstifadə olunacaq NPM
+ Axios
+ Toaster
+
+ React-icons
+ əlavə olaraq istədiyiniz CSS Library
+ react-router-dom

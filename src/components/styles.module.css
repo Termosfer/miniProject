@@ -1,0 +1,133 @@
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.5rem;
+  user-select: none;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.avatar {
+  height: 150px;
+  object-fit: contain;
+}
+
+.h1 {
+  font-weight: bolder;
+  color: brown;
+  text-shadow: -3px -3px 0 rgb(0, 0, 0), -9px -9px 0 rgb(122, 54, 1),
+    -12px -12px 0 rgb(0, 0, 0);
+  font-style: italic;
+  text-combine-upright: 1px solid;
+}
+
+.cardDetails {
+  position: relative;
+  user-select: none;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: tomato;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+ul > a {
+  font-size: 1.2rem;
+  padding: 7px 10px;
+  color: #eee;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 0 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #eee;
+  background-color: #212832;
+}
+
+.div {
+  position: relative;
+}
+
+.p {
+  font-size: 1.2rem;
+  padding: 7px 10px;
+  border: 1px solid white;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.nested {
+  position: absolute;
+  bottom: -47px;
+  left: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.1rem;
+  transition: all .3s ease;
+  border: 1px solid #fff;
+}
+
+.signin {
+  font-size: 1.1rem;
+  border: 1px solid #fff;
+  padding: 8px 10px;
+  margin-top: -14px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.dashboard{
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  
+}
+
+.logout{
+  text-align: center;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dashboard:hover{
+  background-color: #eee;
+  color: #000;
+}
+.logout:hover{
+  background-color: #eee;
+  color: #000;
+}
